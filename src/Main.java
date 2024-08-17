@@ -31,16 +31,16 @@ public class Main {
 //            System.out.println("Element is :" + it.next());
 //        }
 
-//        for(int i=0;i<5;i++) {
-//            outerLoop:
-//            for(int j=0;j<5;j++) {
-//                for(int k=0;k<5;k++) {
-//                    if(k==3)
-//                        break outerLoop;
-//                    System.out.println(i +" " + j + " " + k);
-//                }
-//            }
-//        }
+        for(int i=0;i<5;i++) {
+            outerLoop:
+            for(int j=0;j<5;j++) {
+                for(int k=0;k<5;k++) {
+                    if(k==3)
+                        break outerLoop;
+                    System.out.println(i +" " + j + " " + k);
+                }
+            }
+        }
 
 
     }
